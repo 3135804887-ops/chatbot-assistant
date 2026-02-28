@@ -43,7 +43,7 @@ class Config:
     CACHE_EXPIRE_SECONDS: int = 3600
     
     # Streamlit配置
-    PAGE_TITLE: str = "智能购物助手"
+    PAGE_TITLE: str = "一个聊天机器人"
     PAGE_ICON: str = "🛍️"
     LAYOUT: str = "wide"
     

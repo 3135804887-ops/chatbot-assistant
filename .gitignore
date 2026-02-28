@@ -40,6 +40,9 @@ ENV/
 *.sqlite
 *.sqlite3
 
+# Data directory
+data/
+
 # Data files
 conversations.json
 
