@@ -13,7 +13,7 @@ class Config:
     """
     
     # 智谱AI配置
-    ZHIPUAI_API_KEY: str = os.getenv("ZHIPUAI_API_KEY", "46041b6c7c2c42ac86ec0b27c42a0dcb.2z2VP8s8i69mm3ln")
+    ZHIPUAI_API_KEY: str = os.getenv("ZHIPUAI_API_KEY", "")
     ZHIPUAI_MODEL: str = "glm-5"
     ZHIPUAI_TEMPERATURE: float = 1.0
     ZHIPUAI_MAX_TOKENS: int = 65536
